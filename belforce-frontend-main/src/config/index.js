@@ -3,5 +3,5 @@
  */
 
 export const config = {
-  apiBaseUrl: 'http://localhost:5000'
+  apiBaseUrl: 'https://belforce-backend-st7u.onrender.com'
 };
