@@ -2,7 +2,17 @@ import { env } from './env';
 
 async function parseJsonResponse(res) {
   const text = await res.text();
-  const data = text ? JSON.parse(text) : null;
+  
+  let data = null;
+  if (text) {
+    try {
+      data = JSON.parse(text);
+    } catch (e) {
+      // If we got HTML (e.g. 404 Not Found page, or Render error page) instead of JSON
+      throw new Error(`The backend returned an HTML page instead of JSON (Status ${res.status} at ${res.url}). Please ensure your VITE_API_BASE_URL exactly ends with "/api" and the backend is successfully deployed.`);
+    }
+  }
+
   if (!res.ok) {
     const message = data?.error || data?.message || `Request failed (${res.status})`;
     const err = new Error(message);
