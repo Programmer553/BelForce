@@ -72,7 +72,7 @@ function EarlyAccessSection() {
           <hr className="early-access__mobile-divider" />
           <p className="early-access__mobile-launch">Launching Soon</p>
           <p className="early-access__mobile-dates">
-            Estimated launch: <span className="early-access__mobile-dates-highlight">April 10 – April 15</span>
+            Estimated launch: <span className="early-access__mobile-dates-highlight">May 5 - May 10</span>
           </p>
           <p className="early-access__mobile-warning">Early access memberships are limited.</p>
           <Link to="/membership-plans" className="early-access__mobile-btn">
