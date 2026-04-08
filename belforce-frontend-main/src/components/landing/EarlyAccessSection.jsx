@@ -21,7 +21,7 @@ function EarlyAccessSection() {
           <p className="early-access__card-launch">Launching Soon</p>
           <p className="early-access__card-estimate">
             Estimated launch:{' '}
-            <span className="early-access__card-estimate-highlight">April 10 – April 15</span>
+            <span className="early-access__card-estimate-highlight">May 5 - May 10</span>
           </p>
           <hr className="early-access__card-estimate-divider" />
           <p className="early-access__card-warning">
