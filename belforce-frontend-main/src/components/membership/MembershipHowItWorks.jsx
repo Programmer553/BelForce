@@ -2,7 +2,7 @@ const STEPS = [
   {
     number: 1,
     title: 'App Launch',
-    description: 'Launches between April 10 – April 15, 2026.',
+    description: 'Launches between May 5 – May 10, 2026.',
   },
   {
     number: 2,
