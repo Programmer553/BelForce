@@ -7,7 +7,7 @@ const STEPS = [
   {
     number: 1,
     title: 'App Launch',
-    description: 'Our app launches between April 10 - April 15, 2026. Get ready for a seamless experience!',
+    description: 'Our app launches between May 5 - May 10, 2026. Get ready for a seamless experience!',
     icon: appLaunchIcon,
   },
   {
